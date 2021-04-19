@@ -1,0 +1,221 @@
+header{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;    
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    position: relative;
+    padding: 0;
+}
+.navbar-light .navbar-nav .nav-item{
+    padding: 0 12px;
+    font-size: 20px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #999999;
+}
+.navbar-nav{
+
+}
+.navbar-light .navbar-nav .nav-link::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 3px;
+    background: #EB3A4C;
+    transition: .4s all ease-in-out;
+}
+.navbar-toggler i{
+    color: #EB3A4C;
+}
+.navbar-toggler:focus{
+    box-shadow: 0 0 0 0.25rem #5ebfc7;
+}
+.navbar-light .navbar-nav .nav-link:hover::before{
+    width: 100%;
+}
+.normal h1{
+    color: black;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.color h1{
+    color: #EB3A4C;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+
+}
+header p{
+    color: #999999;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+canvas{
+    position: absolute;
+    top: 0;
+}
+#particles-js{
+    position: relative;
+}
+.btn-download{
+    color: #EB3A4C;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 10px 15px;
+    letter-spacing: 1px;
+    border:1px solid #EB3A4C;
+    transition: .4s all ease-in-out;
+    z-index: 999;
+    border-radius: 20px;
+  
+
+}
+.btn-features{
+    color: #EB3A4C;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 10px 15px;
+    letter-spacing: 1px;
+    border:1px solid #EB3A4C;
+    margin-left: 20px;
+    transition: .4s all ease-in-out;
+    z-index: 999;
+    border-radius: 20px;
+}
+.btn-features:hover{
+    background: #EB3A4C;
+    color: #ffffff;
+    border:1px solid #999999;
+}
+.btn-download:hover{
+    background: #EB3A4C;
+    color: #ffffff;
+    border:1px solid #999999;
+}
+
+.hg{
+    height: 85vh;
+    align-items: center;
+}
+.carousel{
+    background: #ffffff;
+    border:1px solid #EB3A4C;
+    margin: 8px;
+    border-radius: 25px;
+   
+}
+.icon{
+    color: #999999;
+    font-size: 50px;
+    margin-top: 20px;
+}
+.icon:hover{
+    color: #ffffff;
+    font-size: 50px;
+    margin-top: 20px;
+}
+.carousel span{
+    display: inline-block;
+    height: 4px;
+    width: 50px;
+    background: #EB3A4C;
+    position: relative; 
+}
+.carousel .text h3{
+    color: black;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.carousel .text p{
+    color: black;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.carousel:hover{
+    background-color: #EB3A4C;
+}
+.carousel .text h3:hover{
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.carousel .text p:hover{
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.carousel span::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 100%;
+    background:#ffffff;
+    transition: .4s all ease-in-out;
+}
+.carousel:hover span::before{
+    width: 100%;
+}
+.what h2{
+    color: black;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+.what h6{
+    color: #999999;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.what span{
+    display: inline-block;
+    height: 50px;
+    width: 3px;
+    position: relative;
+
+}
+.what span::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 100%;
+    background: #EB3A4C;
+    transition: .4s all ease-in-out;
+}
+.what:hover span::before{
+    width: 100%;
+}
+
+
+
+
